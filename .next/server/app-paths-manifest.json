@@ -1,3 +1,10 @@
 {
-  "/page": "app/page.js"
+  "/(page)/playlist/page": "app/(page)/playlist/page.js",
+  "/page": "app/page.js",
+  "/(page)/create/page": "app/(page)/create/page.js",
+  "/(page)/favorite/page": "app/(page)/favorite/page.js",
+  "/(page)/history/page": "app/(page)/history/page.js",
+  "/(page)/later/page": "app/(page)/later/page.js",
+  "/(page)/follow/page": "app/(page)/follow/page.js",
+  "/(page)/mypage/page": "app/(page)/mypage/page.js"
 }

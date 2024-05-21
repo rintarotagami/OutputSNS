@@ -1,18 +1,15 @@
 "use client";
 
-import React, { useContext } from 'react';
-import { ShowNavigationContext } from '../../../context/UserContext';
+import React from 'react';
+import { useNavigation } from '../../../contexts/UserContext';
 
 const Hamburger = () => {
-    const { showNavigation, setShowNavigation } = useContext(ShowNavigationContext);
-
-    const toggleNavigation = () => {
-        setShowNavigation(!showNavigation);
-    };
+    const { toggleNavigation } = useNavigation();
+    const { isOpen } = useNavigation();
 
     return (
-        <div className="hamburger-menu z-20 mr-4" onClick={toggleNavigation}>
-            {showNavigation ? (
+        <div className="hamburger-menu z-20 p-2 mr-4 rounded-full hover:bg-black hover:bg-opacity-10" onClick={toggleNavigation}>
+            {isOpen ? (
                 <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ zIndex: 10, transform: "scaleX(-1)" }}>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
@@ -26,4 +23,3 @@ const Hamburger = () => {
 };
 
 export default Hamburger;
-
