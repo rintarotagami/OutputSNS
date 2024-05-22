@@ -1,4 +1,4 @@
-// File: C:\Users\rintaro\Desktop\Vscode\OutputSNS\src\app\(solveQuize)\layout.tsx
+// File: C:\Users\rintaro\Desktop\Vscode\G's Acaedmy\OutputSNS\src\app\(solveQuize)\layout.tsx
 import * as entry from '../../../../src/app/(solveQuize)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

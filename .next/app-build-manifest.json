@@ -26,6 +26,22 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(header)/follow/page.js"
     ],
+    "/(solveQuize)/example/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(solveQuize)/example/page.js"
+    ],
+    "/(solveQuize)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(solveQuize)/layout.css",
+      "static/chunks/app/(solveQuize)/layout.js"
+    ],
+    "/(solveQuize)/solve/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(solveQuize)/solve/page.js"
+    ],
     "/(header)/history/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -41,31 +57,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(header)/favorite/page.js"
     ],
-    "/(header)/create/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(header)/create/page.js"
-    ],
     "/(header)/mypage/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(header)/mypage/page.js"
     ],
-    "/(solveQuize)/example/page": [
+    "/(header)/create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(solveQuize)/example/page.js"
-    ],
-    "/(solveQuize)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(solveQuize)/layout.css",
-      "static/chunks/app/(solveQuize)/layout.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/(header)/create/page.js"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\rintaro\Desktop\Vscode\OutputSNS\src\app\(header)\follow\page.tsx
+// File: C:\Users\rintaro\Desktop\Vscode\G's Acaedmy\OutputSNS\src\app\(header)\follow\page.tsx
 import * as entry from '../../../../../src/app/(header)/follow/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
