@@ -2,11 +2,6 @@
   "/(header)/page": "app/(header)/page.js",
   "/(solveQuize)/example/page": "app/(solveQuize)/example/page.js",
   "/(solveQuize)/solve/page": "app/(solveQuize)/solve/page.js",
-  "/(header)/later/page": "app/(header)/later/page.js",
-  "/(header)/follow/page": "app/(header)/follow/page.js",
-  "/(header)/mypage/page": "app/(header)/mypage/page.js",
-  "/(header)/history/page": "app/(header)/history/page.js",
-  "/(header)/playlist/page": "app/(header)/playlist/page.js",
   "/(header)/favorite/page": "app/(header)/favorite/page.js",
   "/(header)/create/page": "app/(header)/create/page.js"
 }

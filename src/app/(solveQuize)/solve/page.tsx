@@ -13,7 +13,7 @@ export default function example() {
                         <li className="bg-gray-200 p-2">ファイル2.css</li>
                         <li className="bg-gray-200 p-2">ファイル3.js</li>
                     </ul>
-                    <p className="text-sm p-2">. > index.html</p>
+                    <p className="text-sm p-2">. index.html</p>
                     <div className="flex-1">
                         <textarea className="h-full w-full flex-1 p-2 border border-gray-300" style={{ fontFamily: 'monospace', resize: 'none' }}>
                             {/* ここにコードを書く */}

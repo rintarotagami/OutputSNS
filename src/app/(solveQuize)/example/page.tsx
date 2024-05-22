@@ -8,14 +8,14 @@ export default function example() {
                     <h2 className="text-lg font-bold mb-2">想定サンプル</h2>
                     {/* ファイル一覧を表示するコンポーネント */}
                 </div>
-                
+
                 <div className="relative w-2/3 bg-white flex flex-col min-h-scree hidden">
                     <ul className="flex bg-gray-200">
                         <li className="bg-gray-200 p-2">ファイル1.html</li>
                         <li className="bg-gray-200 p-2">ファイル2.css</li>
                         <li className="bg-gray-200 p-2">ファイル3.js</li>
                     </ul>
-                    <p className="text-sm p-2">. > index.html</p>
+                    <p className="text-sm p-2">. index.html</p>
                     <div className="flex-1">
                         <textarea className="h-full w-full flex-1 p-2 border border-gray-300" style={{ fontFamily: 'monospace', resize: 'none' }}>
                             {/* ここにコードを書く */}
@@ -50,7 +50,7 @@ export default function example() {
             </div>
             <button className="fixed bottom-2 right-4 bg-blue-500 hover:bg-blue-700 border border-white text-white font-bold py-2 px-4 rounded">
                 <Link href="/solve">
-                    実際に作ってみる >
+                    実際に作ってみる
                 </Link>
             </button>
         </main>
