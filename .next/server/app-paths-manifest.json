@@ -1,10 +1,12 @@
 {
-  "/(page)/playlist/page": "app/(page)/playlist/page.js",
-  "/page": "app/page.js",
-  "/(page)/create/page": "app/(page)/create/page.js",
-  "/(page)/favorite/page": "app/(page)/favorite/page.js",
-  "/(page)/history/page": "app/(page)/history/page.js",
-  "/(page)/later/page": "app/(page)/later/page.js",
-  "/(page)/follow/page": "app/(page)/follow/page.js",
-  "/(page)/mypage/page": "app/(page)/mypage/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(header)/page": "app/(header)/page.js",
+  "/(header)/follow/page": "app/(header)/follow/page.js",
+  "/(header)/favorite/page": "app/(header)/favorite/page.js",
+  "/(header)/create/page": "app/(header)/create/page.js",
+  "/(solveQuize)/example/page": "app/(solveQuize)/example/page.js",
+  "/(header)/later/page": "app/(header)/later/page.js",
+  "/(header)/history/page": "app/(header)/history/page.js",
+  "/(header)/mypage/page": "app/(header)/mypage/page.js",
+  "/(header)/playlist/page": "app/(header)/playlist/page.js"
 }

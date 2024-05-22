@@ -11,7 +11,7 @@ const Header = () => {
     const toggleNavigation = () => setShowNavigation(!showNavigation);
 
     return (
-        <header className="w-full p-4 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-between">
+        <header className="w-full px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-between">
             <div className="flex items-center justify-start">
                 <Hamburger /> {/* ハンバーガーボタンを追加 */}
                 <div className="logo">
